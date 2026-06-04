@@ -1,0 +1,6 @@
+cpu,ram,disk,label
+30,40,50,normal
+85,70,60,warning
+95,90,85,critical
+45,50,60,normal
+75,80,70,warning

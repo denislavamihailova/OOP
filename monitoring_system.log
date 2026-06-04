@@ -1,0 +1,25 @@
+[2026-06-05T01:36:53.374387] INFO: Server registered: WebServer-01 (192.168.1.10)
+[2026-06-05T01:36:53.374547] ERROR: Failed to save server to DB: Insert failed: UNIQUE constraint failed: servers.id
+[2026-06-05T01:36:53.374560] INFO: Server registered: DatabaseServer (192.168.1.20)
+[2026-06-05T01:36:53.374575] ERROR: Failed to save server to DB: Insert failed: UNIQUE constraint failed: servers.id
+[2026-06-05T01:36:53.374584] INFO: Server registered: AppServer-01 (192.168.1.30)
+[2026-06-05T01:36:53.374593] ERROR: Failed to save server to DB: Insert failed: UNIQUE constraint failed: servers.id
+[2026-06-05T01:36:53.375203] INFO: Metrics collected: ServerMetric(server_id=1, cpu=35%, ram=40%, disk=50%)
+[2026-06-05T01:36:53.381876] INFO: Analysis completed: {'server_id': 1, 'cpu': 35, 'ram': 40, 'disk': 50, 'avg_load': 41.67, 'classification': 0, 'status': 'normal', 'timestamp': '2026-06-05T01:36:53.375165'}
+[2026-06-05T01:36:53.386141] INFO: Metrics collected: ServerMetric(server_id=1, cpu=78%, ram=72%, disk=65%)
+[2026-06-05T01:36:53.392289] INFO: Analysis completed: {'server_id': 1, 'cpu': 78, 'ram': 72, 'disk': 65, 'avg_load': 71.67, 'classification': 1, 'status': 'warning', 'timestamp': '2026-06-05T01:36:53.375175'}
+[2026-06-05T01:36:53.396915] INFO: Event triggered: {"server_id": 1, "cpu": 78, "ram": 72, "disk": 65, "avg_load": 71.67, "classification": 1, "status": "warning", "timestamp": "2026-06-05T01:36:53.375175"}
+[2026-06-05T01:36:53.396952] INFO: Event triggered: {"server_id": 1, "cpu": 78, "ram": 72, "disk": 65, "avg_load": 71.67, "classification": 1, "status": "warning", "timestamp": "2026-06-05T01:36:53.375175"}
+[2026-06-05T01:36:53.396967] INFO: Metrics collected: ServerMetric(server_id=1, cpu=92%, ram=88%, disk=82%)
+[2026-06-05T01:36:53.402427] INFO: Analysis completed: {'server_id': 1, 'cpu': 92, 'ram': 88, 'disk': 82, 'avg_load': 87.33, 'classification': 2, 'status': 'critical', 'timestamp': '2026-06-05T01:36:53.375178'}
+[2026-06-05T01:36:53.406883] INFO: Event triggered: {"server_id": 1, "cpu": 92, "ram": 88, "disk": 82, "avg_load": 87.33, "classification": 2, "status": "critical", "timestamp": "2026-06-05T01:36:53.375178"}
+[2026-06-05T01:36:53.406914] INFO: Event triggered: {"server_id": 1, "cpu": 92, "ram": 88, "disk": 82, "avg_load": 87.33, "classification": 2, "status": "critical", "timestamp": "2026-06-05T01:36:53.375178"}
+[2026-06-05T01:36:53.406943] INFO: Event triggered: {"server_id": 1, "cpu": 92, "ram": 88, "disk": 82, "avg_load": 87.33, "classification": 2, "status": "critical", "timestamp": "2026-06-05T01:36:53.375178"}
+[2026-06-05T01:36:53.406957] INFO: Metrics collected: ServerMetric(server_id=2, cpu=50%, ram=55%, disk=60%)
+[2026-06-05T01:36:53.411889] INFO: Analysis completed: {'server_id': 2, 'cpu': 50, 'ram': 55, 'disk': 60, 'avg_load': 55.0, 'classification': 0, 'status': 'normal', 'timestamp': '2026-06-05T01:36:53.375181'}
+[2026-06-05T01:36:53.418233] INFO: Metrics collected: ServerMetric(server_id=2, cpu=85%, ram=75%, disk=70%)
+[2026-06-05T01:36:53.425202] INFO: Analysis completed: {'server_id': 2, 'cpu': 85, 'ram': 75, 'disk': 70, 'avg_load': 76.67, 'classification': 1, 'status': 'warning', 'timestamp': '2026-06-05T01:36:53.375183'}
+[2026-06-05T01:36:53.432195] INFO: Event triggered: {"server_id": 2, "cpu": 85, "ram": 75, "disk": 70, "avg_load": 76.67, "classification": 1, "status": "warning", "timestamp": "2026-06-05T01:36:53.375183"}
+[2026-06-05T01:36:53.432225] INFO: Event triggered: {"server_id": 2, "cpu": 85, "ram": 75, "disk": 70, "avg_load": 76.67, "classification": 1, "status": "warning", "timestamp": "2026-06-05T01:36:53.375183"}
+[2026-06-05T01:36:53.432250] INFO: Metrics collected: ServerMetric(server_id=3, cpu=30%, ram=35%, disk=40%)
+[2026-06-05T01:36:53.436539] INFO: Analysis completed: {'server_id': 3, 'cpu': 30, 'ram': 35, 'disk': 40, 'avg_load': 35.0, 'classification': 0, 'status': 'normal', 'timestamp': '2026-06-05T01:36:53.375186'}

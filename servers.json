@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "WebServer-01",
+    "ip": "192.168.1.10",
+    "status": "online"
+  },
+  {
+    "id": 2,
+    "name": "DatabaseServer",
+    "ip": "192.168.1.20",
+    "status": "online"
+  },
+  {
+    "id": 3,
+    "name": "AppServer-01",
+    "ip": "192.168.1.30",
+    "status": "online"
+  }
+]
