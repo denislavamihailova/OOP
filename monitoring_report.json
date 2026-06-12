@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-06-12T22:42:54.429986",
+  "period": "Real-time Monitoring",
+  "servers_monitored": 3,
+  "total_metrics_collected": 6,
+  "total_predictions": 0,
+  "classification_breakdown": {
+    "normal": 3,
+    "warning": 2,
+    "critical": 1
+  },
+  "anomalies_detected": 0,
+  "trends": 0
+}
